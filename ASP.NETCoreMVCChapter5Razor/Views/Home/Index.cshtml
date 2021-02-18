@@ -1,16 +1,5 @@
-﻿@model ASP.NETCoreMVCChapter5Razor.Models.Product
+﻿@model Product
 @{
-    Layout = null;
+    ViewBag.Title = "Product Name";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width"/>
-    <title>Изучение Razor</title>
-</head>
-<body>
-    <p>@Model.ProductId</p>
-    <p>@Model.Name</p>
-    <p>@Model.Price</p>
-</body>
-</html>
+Product Name: @Model.Name
